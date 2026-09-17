@@ -1,0 +1,40 @@
+# Go
+*.exe
+*.dll
+*.test
+*.out
+/bin/
+/dist/
+vendor/
+
+# C++
+build/
+*.o
+*.a
+*.so
+CMakeCache.txt
+CMakeFiles/
+
+# Node
+node_modules/
+.next/
+dist/
+
+# Env / secrets
+.env
+.env.*
+*.pem
+*.key
+credentials*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
