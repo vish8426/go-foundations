@@ -1,6 +1,9 @@
 package main
 
-import "math"
+import (
+	"fmt"
+	"math"
+)
 
 // Point is a 2D position in metres.
 type Point struct {
@@ -14,4 +17,8 @@ func Distance(p, q Point) float64 {
 	return math.Sqrt(dx*dx + dy*dy)
 }
 
-func main() {}
+func main() {
+	a := Point{0, 0}
+	b := Point{3, 4}
+	fmt.Println("distance:", Distance(a, b))
+}
